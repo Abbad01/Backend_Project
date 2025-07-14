@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "backend at chai aur code channel",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
@@ -12,5 +12,9 @@
     "backend"
   ],
   "author": "Abbad",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
 }
