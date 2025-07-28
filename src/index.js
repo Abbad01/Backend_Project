@@ -32,6 +32,7 @@ const app=express();
 // require ('dotenv').config({path:'./env'})  //from documentation
 import dotenv from "dotenv";
 import connectDB from "./db/index.js";
+import { app } from "./app.js";
 dotenv.config({
     path:'./env'
 })
